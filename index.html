@@ -3,145 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#060b14" />
-    <meta name="description" content="Patrick 的個人網站，記錄 AI 編程、資訊與金融的學習方向" />
-    <title>Patrick｜資訊科學生</title>
+    <meta name="theme-color" content="#fffaf2" />
+    <meta name="description" content="Patrick 的個人網站，記錄 AI 學習、實作作品與最近的生活進度。" />
+    <title>Patrick｜邊學邊做的資訊科學生</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <div class="ambient" aria-hidden="true"></div>
+  <body id="top">
+    <a class="skip-link" href="#main-content">跳到主要內容</a>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="回到首頁">P<span>.</span></a>
+      <a class="brand" href="#top" aria-label="回到首頁">Patrick<span>.</span></a>
       <nav aria-label="主要導覽">
-        <a href="#top" aria-current="page">首頁</a>
+        <a href="#about">關於我</a>
+        <a href="updates.html">最近動態</a>
         <a href="portfolio.html">作品集</a>
       </nav>
+      <a class="header-hello" href="#contact">來聊聊</a>
     </header>
 
-    <main id="top">
+    <main id="main-content">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> PATRICK · YINGGE, TAIWAN</p>
-          <h1 id="hero-title">保持好奇，<br /><span>創造下一種可能。</span></h1>
-          <div class="hero-intro">
-            <span>簡短自介</span>
-            <p>一個正在學習如何運用 AI，把生活中的想法一步步做成真正好用工具的學生。</p>
+          <p class="eyebrow"><span aria-hidden="true"></span> 嗨，歡迎來到我的小角落</p>
+          <h1 id="hero-title">我是 Patrick，<br />一個喜歡把<span>想法做出來</span>的學生。</h1>
+          <p class="hero-intro">我正在學習怎麼運用 AI，把生活裡遇到的小問題和腦中的點子，一步步做成真正好用的工具。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="portfolio.html">看看我的作品 <span aria-hidden="true">→</span></a>
+            <a class="button button-text" href="#about">認識我多一點 <span aria-hidden="true">↓</span></a>
           </div>
         </div>
 
-        <div class="profile-panel" aria-label="Patrick 的個人簡介">
-          <div class="profile-about">
-            <p>ABOUT ME</p>
-            <h2>Patrick</h2>
-            <span>資訊科學生 · AI 學習者</span>
+        <div class="hero-portrait" aria-label="Patrick 的個人介紹卡片">
+          <div class="portrait-note note-top" aria-hidden="true">still learning!</div>
+          <div class="portrait-card">
+            <span class="portrait-sun" aria-hidden="true"></span>
+            <div class="portrait-avatar" aria-hidden="true">P</div>
+            <div class="portrait-copy">
+              <strong>Patrick</strong>
+              <span>資訊科學生 · AI 學習中</span>
+            </div>
           </div>
-          <div class="profile-summary">
-            <span>LEARNING JOURNEY</span>
-            <p>從好奇開始，透過一次次動手實作，把陌生的問題慢慢變成能理解、能完成的事情。</p>
-          </div>
-          <div class="profile-meta">
-            <div><small>目前專注</small><strong>AI 編程</strong></div>
-            <div><small>關注領域</small><strong>資訊 × 金融</strong></div>
-          </div>
+          <div class="portrait-note note-bottom" aria-hidden="true">好奇心是我的起點 ↗</div>
         </div>
       </section>
 
       <section class="about section" id="about" aria-labelledby="about-title">
         <div class="section-heading">
-          <p class="section-no">PROFILE</p>
-          <h2 id="about-title">在每一次實作裡，<br /><span class="title-line">累積真正的能力。</span></h2>
-          <p>我喜歡做對自己有挑戰性的事。遇到還不會的東西，就是開始動手的理由。</p>
+          <p class="section-label">ABOUT ME</p>
+          <h2 id="about-title">比起一份履歷，<br />我更想讓你認識<span>真實的我。</span></h2>
         </div>
-        <div class="info-grid">
-          <article class="info-card">
-            <div class="card-mark">01</div>
-            <div class="card-copy">
-              <span>目前專注</span>
-              <h3>把 AI 編程變成實作能力</h3>
-              <p>從小型網頁與功能開始，把腦中的想法實際做出來，也在過程中理解工具、程式與問題解決的方法。</p>
-            </div>
-          </article>
-          <article class="info-card">
-            <div class="card-mark">02</div>
-            <div class="card-copy">
-              <span>學習方式</span>
-              <h3>邊做、邊理解、邊修正</h3>
-              <p>面對不熟悉的題目，我會先拆解問題、開始嘗試，再從結果裡找出下一步，讓每次實作都留下真正的收穫。</p>
-            </div>
-          </article>
-          <article class="info-card">
-            <div class="card-mark">03</div>
-            <div class="card-copy">
-              <span>延伸探索</span>
-              <h3>資訊科技 × 金融</h3>
-              <p>除了程式與 AI，我也持續關注金融領域，思考科技如何協助整理資訊、理解變化，並做出更清楚的判斷。</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="now-section section" aria-labelledby="now-title">
-        <div class="section-heading">
-          <p class="section-no">NOW</p>
-          <h2 id="now-title">持續累積，<br /><span class="title-line">讓想法一步步成形。</span></h2>
-          <p>我還在累積作品與經驗。對現在的我來說，每一次完成不只是成果，也是讓下一個想法更有可能實現的基礎。</p>
-        </div>
-        <div class="now-panel">
-          <p class="now-label">CURRENT STATUS</p>
-          <div class="now-cards">
-            <div class="now-item">
-              <span>正在進行</span>
-              <div>
-                <strong>累積作品與實作經驗</strong>
-                <p>持續把學到的知識變成可以操作的作品，從規劃、製作到修正，記錄每一次實際完成的過程。</p>
-              </div>
-            </div>
-            <div class="now-item">
-              <span>持續建立</span>
-              <div>
-                <strong>AI 編程與問題解決能力</strong>
-                <p>練習把複雜問題拆成清楚的小步驟，善用 AI 協助思考與開發，同時理解每個解法背後的原因。</p>
-              </div>
-            </div>
+        <div class="about-story">
+          <p class="lead">我目前就讀鶯歌工商資訊科。因為對「電腦到底能幫人做到什麼」很好奇，慢慢開始接觸程式、AI，也開始自己動手做東西。</p>
+          <p>我不是什麼都會的人，但很享受從不懂到慢慢搞懂的過程。遇到新問題時，我通常會先拆小、試做、踩坑，再把學到的東西整理成下一次能用上的方法。</p>
+          <div class="about-tags" aria-label="Patrick 的個人特質">
+            <span>喜歡動手試</span>
+            <span>對新東西好奇</span>
+            <span>正在練習把問題說清楚</span>
           </div>
-          <p class="now-footnote">LEARNING · BUILDING · MOVING FORWARD</p>
         </div>
       </section>
 
+      <section class="now section" id="now" aria-labelledby="now-title">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="section-label">RECENTLY</p>
+            <h2 id="now-title">最近的我，<span>正在慢慢更新。</span></h2>
+          </div>
+          <a class="inline-link" href="updates.html">查看我最近的動態 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="update-list">
+          <article class="update-card update-mint">
+            <div class="update-meta"><time datetime="2026-07">2026.07</time><span>現在正在學</span></div>
+            <h3>資訊 × 金融筆記</h3>
+            <p>從整理金融概念與市場資訊開始，慢慢理解科技可以怎麼幫助人看懂資料與變化。</p>
+          </article>
+          <article class="update-card update-peach">
+            <div class="update-meta"><time datetime="2026-07-02">2026.07.02</time><span>最近做了</span></div>
+            <h3>重新整理自己的個人網站</h3>
+            <p>重新思考我想在這裡留下什麼，讓網站少一點模板味，多一點自己的個性。</p>
+          </article>
+          <article class="update-card update-yellow">
+            <div class="update-meta"><time datetime="2026-07">2026.07</time><span>正在摸索</span></div>
+            <h3>把小問題變成小工具</h3>
+            <p>從日常需求開始，練習找出問題、規劃功能，再用 AI 和程式一步步做出原型。</p>
+          </article>
+          <article class="update-card update-blue">
+            <div class="update-meta"><time datetime="2026-06">2026.06</time><span>開始學習</span></div>
+            <h3>因為同學，開始接觸程式</h3>
+            <p>一開始只是看到同學在寫程式，覺得很有趣，所以自己也想試著開始學，慢慢走進程式和 AI 的世界。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="featured section" aria-labelledby="featured-title">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="section-label">SELECTED WORK</p>
+            <h2 id="featured-title">一些我正在累積的<span>小作品。</span></h2>
+          </div>
+          <a class="inline-link" href="portfolio.html">查看完整作品集 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="featured-grid">
+          <article class="featured-card">
+            <div class="work-visual visual-site" aria-hidden="true"><span class="browser-dot"></span><div><small>HELLO, I'M PATRICK</small><strong>把好奇心<br />做成作品。</strong></div></div>
+            <div class="work-copy"><span>網站設計 · HTML / CSS</span><h3>個人作品集網站</h3><p>從內容、排版到視覺，一點一點整理出更像自己的網路空間。</p></div>
+          </article>
+          <article class="featured-card">
+            <div class="work-visual visual-ai" aria-hidden="true"><span class="ai-orbit"></span><strong>AI</strong><small>IDEA → TOOL</small></div>
+            <div class="work-copy"><span>學習實驗 · AI</span><h3>AI 實作練習</h3><p>把生活中的小問題拆開，嘗試做成可以實際操作的小工具。</p></div>
+          </article>
+        </div>
+      </section>
     </main>
 
-    <footer>
-      <div class="footer-contact">
-        <div class="contact-title">
-          <span>CONTACT</span>
-          <strong>聯絡我</strong>
+    <footer id="contact">
+      <div class="contact-card">
+        <div>
+          <p class="section-label">SAY HELLO</p>
+          <h2>如果你也在學新東西，<br />歡迎來找我聊聊。</h2>
+          <p>聊 AI、聊作品，或分享最近踩到的坑都可以。</p>
         </div>
         <div class="social-links" aria-label="社群與聯絡方式">
-          <a href="https://github.com/ttrrdfx" target="_blank" rel="noreferrer" aria-label="前往 Patrick 的 GitHub">
+          <a href="https://github.com/ttrrdfx" target="_blank" rel="noreferrer">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7a11.5 11.5 0 0 0-3.64 22.41c.58.11.79-.25.79-.56v-2.24c-3.22.7-3.9-1.37-3.9-1.37-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.72 1.27 3.38.97.1-.75.4-1.27.74-1.56-2.57-.29-5.28-1.29-5.28-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.47.11-3.05 0 0 .97-.31 3.16 1.18a10.9 10.9 0 0 1 5.76 0c2.19-1.49 3.15-1.18 3.15-1.18.64 1.58.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.4-2.72 5.38-5.3 5.67.42.36.79 1.06.79 2.14v3.18c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .7Z"/></svg>
-            <span>GitHub</span>
+            <span>GitHub</span><span class="social-arrow" aria-hidden="true">↗</span>
           </a>
-          <a href="https://www.instagram.com/ampatrick._.i/" target="_blank" rel="noreferrer" aria-label="前往 Patrick 的 Instagram">
+          <a href="https://www.instagram.com/ampatrick._.i/" target="_blank" rel="noreferrer">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.6 2h8.8A5.6 5.6 0 0 1 22 7.6v8.8a5.6 5.6 0 0 1-5.6 5.6H7.6A5.6 5.6 0 0 1 2 16.4V7.6A5.6 5.6 0 0 1 7.6 2Zm-.2 2A3.4 3.4 0 0 0 4 7.4v9.2A3.4 3.4 0 0 0 7.4 20h9.2a3.4 3.4 0 0 0 3.4-3.4V7.4A3.4 3.4 0 0 0 16.6 4H7.4Zm9.35 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
-            <span>Instagram</span>
+            <span>Instagram</span><span class="social-arrow" aria-hidden="true">↗</span>
           </a>
-          <a href="mailto:ttrrdfx@gmail.com" aria-label="寄信給 Patrick">
+          <a href="mailto:ttrrdfx@gmail.com">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.75 4h16.5A2.75 2.75 0 0 1 23 6.75v10.5A2.75 2.75 0 0 1 20.25 20H3.75A2.75 2.75 0 0 1 1 17.25V6.75A2.75 2.75 0 0 1 3.75 4Zm16.88 3.24-7.95 5.58a1.18 1.18 0 0 1-1.36 0L3.37 7.24v10.01c0 .21.17.38.38.38h16.5c.21 0 .38-.17.38-.38V7.24ZM4.6 6.37 12 11.56l7.4-5.19H4.6Z"/></svg>
-            <span>Gmail</span>
+            <span>Gmail</span><span class="social-arrow" aria-hidden="true">↗</span>
           </a>
-          <a href="https://discord.com/users/734754662749569034" target="_blank" rel="noreferrer" aria-label="前往 Patrick 的 Discord 個人檔案">
+          <a href="https://discord.com/users/734754662749569034" target="_blank" rel="noreferrer">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 5.34A17.5 17.5 0 0 0 15.3 4l-.53 1.08a16.1 16.1 0 0 0-5.54 0L8.7 4A17.5 17.5 0 0 0 4.4 5.34C1.68 9.39.94 13.34 1.3 17.23a17.7 17.7 0 0 0 5.28 2.67l1.3-1.78a11.3 11.3 0 0 1-2.04-.98l.5-.39c3.94 1.83 8.23 1.83 12.12 0l.52.39c-.65.39-1.34.72-2.05.98l1.3 1.78a17.7 17.7 0 0 0 5.28-2.67c.43-4.51-.73-8.42-3.91-11.89ZM8.55 14.82c-1.19 0-2.17-1.09-2.17-2.43s.96-2.43 2.17-2.43 2.19 1.1 2.17 2.43c0 1.34-.96 2.43-2.17 2.43Zm6.9 0c-1.19 0-2.17-1.09-2.17-2.43s.96-2.43 2.17-2.43 2.19 1.1 2.17 2.43c0 1.34-.96 2.43-2.17 2.43Z"/></svg>
-            <span>Discord</span>
+            <span>Discord</span><span class="social-arrow" aria-hidden="true">↗</span>
           </a>
         </div>
       </div>
-      <div class="footer-meta">
-        <p>© 2026 PATRICK</p>
-        <p>KEEP CURIOUS · KEEP BUILDING</p>
-      </div>
+      <div class="footer-meta"><p>© 2026 Patrick</p><p>邊學、邊做、邊長大。</p></div>
     </footer>
   </body>
 </html>
