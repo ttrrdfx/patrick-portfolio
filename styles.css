@@ -87,7 +87,6 @@ h1, h2 { margin-bottom: 0; letter-spacing: -.055em; line-height: 1.18; }
 .update-blue { background: var(--blue-soft); }
 .update-yellow { background: var(--yellow-soft); }
 .update-peach { background: var(--peach-soft); }
-.update-mint { background: #ddefe6; }
 .update-meta { display: flex; align-items: center; justify-content: space-between; gap: 15px; color: var(--ink-soft); font-size: 10px; font-weight: 600; letter-spacing: .08em; }
 .update-meta span { padding: 6px 9px; background: rgba(255,255,255,.55); border-radius: 99px; }
 .update-card h3 { margin: auto 0 14px; font-size: 21px; line-height: 1.45; letter-spacing: -.03em; }
@@ -148,10 +147,6 @@ footer { width: min(1100px, calc(100% - 48px)); margin: auto; padding: 70px 0 30
 .spark { position: absolute; width: 30px; height: 30px; background: var(--yellow); transform: rotate(45deg); }
 .spark-one { top: 55px; right: 75px; }
 .spark-two { bottom: 55px; left: 70px; width: 17px; height: 17px; background: var(--blue); }
-.art-finance { display: grid; place-items: center; background: var(--yellow-soft); }
-.paper-chart { width: 70%; height: 250px; padding: 40px 38px 28px; display: flex; align-items: flex-end; gap: 14px; background: var(--paper); border-radius: 16px; box-shadow: var(--shadow); transform: rotate(2deg); }
-.paper-chart span { flex: 1; background: var(--blue); border-radius: 6px 6px 0 0; }
-.paper-chart span:nth-child(even) { background: var(--peach); }
 .project-meta { display: flex; align-items: center; gap: 14px; color: var(--blue); font-size: 10px; font-weight: 700; letter-spacing: .08em; }
 .project-meta span:first-child { width: 34px; height: 34px; display: grid; place-items: center; background: var(--blue-soft); border-radius: 50%; }
 .project-info h2 { margin-top: 20px; font-size: clamp(32px, 4vw, 45px); }
@@ -190,7 +185,6 @@ footer { width: min(1100px, calc(100% - 48px)); margin: auto; padding: 70px 0 30
 .dot-yellow { background: var(--yellow); }
 .dot-blue { background: var(--blue); }
 .dot-peach { background: var(--peach); }
-.dot-mint { background: var(--mint); }
 .activity-content h3 { margin: 0 0 18px; font-size: clamp(24px, 3vw, 33px); line-height: 1.4; letter-spacing: -.035em; }
 .activity-content > p { margin: 0; color: var(--ink-soft); font-size: 14px; line-height: 1.95; }
 .activity-note { margin-top: 24px; padding: 18px 20px; background: var(--paper); border: 1px solid var(--line); border-radius: 14px; }
@@ -266,7 +260,6 @@ a:focus-visible { outline: 3px solid var(--peach); outline-offset: 3px; }
   .art-site { padding: 28px; }
   .art-window { min-height: 210px; }
   .art-window strong { margin-top: 40px; font-size: 28px; }
-  .paper-chart { width: 80%; height: 210px; padding: 30px 25px 24px; }
   .updates-hero h1 { font-size: 38px; }
   .updates-summary { padding: 8px 4px; }
   .updates-summary span { font-size: 10px; }
